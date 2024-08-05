@@ -1,4 +1,4 @@
-package lesson2;
+package src;
 
 public class TaskMethods {
 
