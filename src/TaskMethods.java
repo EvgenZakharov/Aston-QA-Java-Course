@@ -4,9 +4,7 @@ public class TaskMethods {
 
     // Задание 1
     public static void printThreeWords() {
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
+        System.out.println("Orange" + '\n' + "Banana" + '\n' + "Apple");
     }
 
     // Задание 2
@@ -14,19 +12,22 @@ public class TaskMethods {
         int a = -5;
         int b = 10;
         int sum = a + b;
-        if (sum >= 0) {
-            System.out.println("Сумма положительная");
-        } else {
-            System.out.println("Сумма отрицательная");
-        }
+//        if (sum >= 0) {
+//            System.out.println("Сумма положительная");
+//        } else {
+//            System.out.println("Сумма отрицательная");
+//        }
+        System.out.println(sum >= 0 ? "Сумма положительная" : "Сумма отрицательная");
     }
 
     // Задание 3
     public static void printColor() {
-        int value = 50;
+        int value = 99;
+
         if (value <= 0) {
             System.out.println("Красный");
-        } else if (value > 0 && value <= 100) {
+//        } else if (value > 0 && value <= 100) {
+        } else if (value <= 100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
@@ -37,11 +38,12 @@ public class TaskMethods {
     public static void compareNumbers() {
         int a = 10;
         int b = 20;
-        if (a >= b) {
-            System.out.println("a >= b");
-        } else {
-            System.out.println("a < b");
-        }
+//        if (a >= b) {
+//            System.out.println("a >= b");
+//        } else {
+//            System.out.println("a < b");
+//        }
+        System.out.println(a >= b ? "a >= b" : "a < b");
     }
 
     // Задание 5
@@ -52,11 +54,12 @@ public class TaskMethods {
 
     // Задание 6
     public static void printSign(int number) {
-        if (number >= 0) {
-            System.out.println("Число положительное");
-        } else {
-            System.out.println("Число отрицательное");
-        }
+//        if (number >= 0) {
+//            System.out.println("Число положительное");
+//        } else {
+//            System.out.println("Число отрицательное");
+//        }
+        System.out.println(number >= 0 ? "Число положительное" : "Число отрицательное");
     }
 
     // Задание 7
