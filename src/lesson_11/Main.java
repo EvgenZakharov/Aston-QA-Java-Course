@@ -9,6 +9,8 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
+
+        //1. Задание
         List<String> words = new ArrayList<>();
         words.add("apple");
         words.add("banana");
@@ -34,5 +36,17 @@ public class Main {
         for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
+
+
+        //2. Задание
+        PhoneDirectory phoneDirectory = new PhoneDirectory();
+
+        phoneDirectory.add("Иванов", "+123456789");
+        phoneDirectory.add("Петров", "+987654321");
+        phoneDirectory.add("Иванов", "+111111111");
+
+        System.out.println("Номера для Иванов: " + phoneDirectory.get("Иванов"));
+        System.out.println("Номера для Петров: " + phoneDirectory.get("Петров"));
+        System.out.println("Номера для Сидоров: " + phoneDirectory.get("Сидоров"));
     }
 }
