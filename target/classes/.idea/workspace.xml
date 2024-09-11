@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6072bbe8-1e62-4939-9b00-97f53be8ae66" name="Changes" comment="урок 12_junit_5">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_12_junit_5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test/FactorialCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Aston-QA-Java-Course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aston-QA-Java-Course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aston-QA-Java-Course/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aston-QA-Java-Course/.idea/Aston-QA-Java-Course.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aston-QA-Java-Course/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aston-QA-Java-Course/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aston-QA-Java-Course/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aston-QA-Java-Course/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aston-QA-Java-Course/src/lesson_11/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aston-QA-Java-Course/src/lesson_11/PhoneDirectory.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_12_junit_5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2kFlPo9jVTE6ESrYbumdsrhHgTF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MainEmployee.executor": "Run",
+    "Application.MainPark.executor": "Run",
+    "Application.Park.executor": "Run",
+    "Application.src.Main.executor": "Debug",
+    "Application.src.lesson6.Main.executor": "Run",
+    "Application.src.lesson7.Main.executor": "Run",
+    "Application.src.lesson_11.Main.executor": "Run",
+    "Application.src.lesson_8.Main.executor": "Run",
+    "JUnit.FactorialCalculatorTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Lesson__12__testNG",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Evgeny/IdeaProjects/HRLinkProject",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Evgeny\IdeaProjects\Aston-QA-Java-Course" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FactorialCalculatorTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lesson_12_junit_5.Main" />
+      <module name="Aston-QA-Java-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="src.lesson_11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lesson_11.Main" />
+      <module name="Aston-QA-Java-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.lesson_11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="src.lesson_8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lesson_8.Main" />
+      <module name="Aston-QA-Java-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.lesson_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston-QA-Java-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.lesson_12_junit_5.test" />
+      <option name="MAIN_CLASS_NAME" value="test.FactorialCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aston-QA-Java-Course" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialCalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FactorialCalculatorTest" />
+        <item itemvalue="JUnit.FactorialCalculatorTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.src.lesson_11.Main" />
+        <item itemvalue="Application.src.lesson_8.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Evgeny\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6072bbe8-1e62-4939-9b00-97f53be8ae66" name="Changes" comment="" />
+      <created>1722887183929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722887183929</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1722887533407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722887533407</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added code">
+      <option name="closed" value="true" />
+      <created>1722887614682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722887614682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="separated methods and calls">
+      <option name="closed" value="true" />
+      <created>1722898225465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722898225465</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added src folder">
+      <option name="closed" value="true" />
+      <created>1722898892880</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722898892880</updated>
+    </task>
+    <task id="LOCAL-00005" summary="исправлены замечания по результатам оценки">
+      <option name="closed" value="true" />
+      <created>1723372055386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723372055386</updated>
+    </task>
+    <task id="LOCAL-00006" summary="перенесено в пакеты">
+      <option name="closed" value="true" />
+      <created>1724148416798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724148416798</updated>
+    </task>
+    <task id="LOCAL-00007" summary="перенесено в пакеты">
+      <option name="closed" value="true" />
+      <created>1724156192401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724156192401</updated>
+    </task>
+    <task id="LOCAL-00008" summary="перенесено в пакеты">
+      <option name="closed" value="true" />
+      <created>1724156211164</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724156211164</updated>
+    </task>
+    <task id="LOCAL-00009" summary="перенесено в пакеты">
+      <option name="closed" value="true" />
+      <created>1724171474079</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724171474079</updated>
+    </task>
+    <task id="LOCAL-00010" summary="перенесено в пакеты">
+      <option name="closed" value="true" />
+      <created>1724171888054</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724171888054</updated>
+    </task>
+    <task id="LOCAL-00011" summary="перенесено в пакеты">
+      <option name="closed" value="true" />
+      <created>1724176219626</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724176219626</updated>
+    </task>
+    <task id="LOCAL-00012" summary="перенесено в пакеты">
+      <option name="closed" value="true" />
+      <created>1724618783787</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724618783787</updated>
+    </task>
+    <task id="LOCAL-00013" summary="удалил урок 6">
+      <option name="closed" value="true" />
+      <created>1724618878078</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724618878078</updated>
+    </task>
+    <task id="LOCAL-00014" summary="урок 8">
+      <option name="closed" value="true" />
+      <created>1724965293578</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724965293578</updated>
+    </task>
+    <task id="LOCAL-00015" summary="урок 8">
+      <option name="closed" value="true" />
+      <created>1724965314068</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724965314068</updated>
+    </task>
+    <task id="LOCAL-00016" summary="урок 8">
+      <option name="closed" value="true" />
+      <created>1724965353931</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724965353931</updated>
+    </task>
+    <task id="LOCAL-00017" summary="урок 8">
+      <option name="closed" value="true" />
+      <created>1725829459925</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725829459925</updated>
+    </task>
+    <task id="LOCAL-00018" summary="урок 11">
+      <option name="closed" value="true" />
+      <created>1725829485089</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725829485089</updated>
+    </task>
+    <task id="LOCAL-00019" summary="урок 11">
+      <option name="closed" value="true" />
+      <created>1725829501464</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1725829501464</updated>
+    </task>
+    <task id="LOCAL-00020" summary="урок 11">
+      <option name="closed" value="true" />
+      <created>1725830056977</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725830056977</updated>
+    </task>
+    <task id="LOCAL-00021" summary="урок 12">
+      <option name="closed" value="true" />
+      <created>1726083699602</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726083699602</updated>
+    </task>
+    <task id="LOCAL-00022" summary="урок 12_junit_5">
+      <option name="closed" value="true" />
+      <created>1726083972967</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726083972967</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Lesson_2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="added code" />
+    <MESSAGE value="separated methods and calls" />
+    <MESSAGE value="added src folder" />
+    <MESSAGE value="исправлены замечания по результатам оценки" />
+    <MESSAGE value="перенесено в пакеты" />
+    <MESSAGE value="удалил урок 6" />
+    <MESSAGE value="урок 8" />
+    <MESSAGE value="урок 11" />
+    <MESSAGE value="урок 12" />
+    <MESSAGE value="урок 12_junit_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="урок 12_junit_5" />
+  </component>
+</project>
